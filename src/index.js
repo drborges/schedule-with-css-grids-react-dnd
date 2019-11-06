@@ -50,6 +50,7 @@ const AppointmentSlot = styled(Slot)`
   /* filter: ${props => (props.dragging ? "blur(5px)" : "blur(0)")}; */
   grid-column: ${props => colName(props.date)} / span
     ${props => props.appointment.duration};
+  cursor: pointer;
 `;
 
 const AvailableSlot = styled(Slot)`

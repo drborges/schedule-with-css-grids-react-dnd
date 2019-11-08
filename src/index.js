@@ -40,6 +40,7 @@ const Slot = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.5s ease;
 `;
 
 const AppointmentSlot = styled(Slot)`

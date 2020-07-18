@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "dependencies": {
     "faker": "4.1.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "moment": "2.24.0",
     "react": "16.8.6",
     "react-dnd": "9.4.0",
